@@ -25,9 +25,9 @@ public class LoginPageTest extends BrowserDriver {
     public Object[][] dataProvider() throws Exception {
 
         MyDataReader myDataReader = new MyDataReader();
-        String path = System.getProperty("user.dir") + "/Automationpractice/data/data.xlsx";
+        String path = System.getProperty("user.dir") + "/data/data.xlsx";
 
-        myDataReader.setExcelFile("/Users/jahidul/IdeaProjects/AutomationFrameworkBatch1901/Automationpractice/data/data.xlsx");
+        myDataReader.setExcelFile(path);
        String[][] data = myDataReader.getExcelSheetData("Sheet1");
        return data;
 
