@@ -1,7 +1,9 @@
 package page.objects;
 
+import application.base.page.ApplicationPageBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.AfterMethod;
 import reporting.TestLogger;
 
 public class HomePage {
@@ -25,6 +27,9 @@ public class HomePage {
    @FindBy(linkText = "Contact us")
    private WebElement contactUs;
 
+   @FindBy(className = "login")
+   private WebElement signin;
+
 
    public void search(){
        TestLogger.log("Send Texts/Keys to search box");
@@ -43,6 +48,11 @@ public class HomePage {
 
        contactUs.click();
        TestLogger.log("You are in Contact Us Page");
+
+       }
+
+       public void goToSigninPage(){
+           ApplicationPageBase.click("Sign In", signin);
 
        }
 }

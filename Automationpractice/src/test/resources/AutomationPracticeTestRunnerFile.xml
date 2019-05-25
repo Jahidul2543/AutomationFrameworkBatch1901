@@ -16,12 +16,9 @@
 <test name = "Ecommerc Home">
 
     <classes>
-
-          <class name="page.objects.test.HomePageTest"/>
-          <class name="page.objects.test.ContactUsPageTest"/>
-       <!-- <class name="tests.page.objects.SignInPageTest"/>-->
-      <!--  <class name="tests.page.objects.SignInUsingGoogleSheetAPI"/>-->
-        <!--<class name="tests.page.objects.ContactUsPageTest"/>-->
+        <!-- <class name="page.objects.test.HomePageTest"/>
+          <class name="page.objects.test.ContactUsPageTest"/>-->
+          <class name="page.objects.test.LoginPageTest"/>
     </classes>
 
 </test>

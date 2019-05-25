@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Automationpractice</module>
         <module>amazon</module>
+        <module>etarget</module>
     </modules>
 
     <dependencyManagement>
@@ -32,7 +33,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.20.1</version>
             </dependency>
-           <!-- <dependency>
+            <!--XSLX reader-->
+            <dependency>
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi</artifactId>
                 <version>3.17</version>
@@ -41,7 +43,8 @@
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
                 <version>3.17</version>
-            </dependency>-->
+            </dependency>
+            <!--Extent Report-->
             <dependency>
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
