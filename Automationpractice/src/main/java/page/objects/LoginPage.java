@@ -1,10 +1,8 @@
 package page.objects;
 
 import application.base.page.ApplicationPageBase;
-import com.sun.xml.internal.xsom.impl.parser.SubstGroupBaseTypeRef;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class LoginPage {
