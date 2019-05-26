@@ -12,7 +12,7 @@
         <module>Generic</module>
         <module>Automationpractice</module>
         <module>amazon</module>
-        <module>etarget</module>
+       <!-- <module>etarget</module>-->
         <module>herokuapp</module>
     </modules>
 
