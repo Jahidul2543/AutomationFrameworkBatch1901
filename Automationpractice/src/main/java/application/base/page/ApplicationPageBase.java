@@ -1,5 +1,6 @@
 package application.base.page;
 
+
 import base.BrowserDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import reporting.TestLogger;
 
 public class ApplicationPageBase extends BrowserDriver {
+
+
 
     /**
      * This class will contain Helper Methods

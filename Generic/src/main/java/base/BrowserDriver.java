@@ -51,7 +51,7 @@ public class BrowserDriver {
     public static final String saucelabs_username = null;
     public static final String saucelabs_accesskey = null;
 
-    public static String   os = System.getProperty("os", "windows");
+    public static String   os = System.getProperty("os", "windows");//mac
 
     /**
      * Extent Report
